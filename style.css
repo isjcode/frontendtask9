@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0 !important;
+    white-space: nowrap;
+}
+
+header .top {
+    height: 50px;
+    background-color: black;
+}
+
+header .top .row {
+    height: 100% !important;
+}
+
+
+header .top .left, header .top .right {
+    height: 100%;
+    color: white;
+    font-size: 12px;
+    line-height: 50px;
+}
+
+header .top .left p {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 20px;
+    filter: brightness(70%);
+}
+
+header .top .left {
+    text-align: center;
+}
+
+header .top .right {
+    text-align: center;
+    background-color: black;
+}
+
+header .top .right p {
+    display: inline-block;
+    width: min-content;
+    filter: brightness(70%);
+}
+
+header .top .right i {
+    color: white;
+    margin-left: 20px;
+    filter: brightness(70%);
+}
